@@ -2,7 +2,7 @@ import { motion, type Variants } from "motion/react";
 
 import Container from "@/components/ui/Container";
 import DramaticTransition from "@/components/motion/DramaticTransition";
-import projectsBg from "@/assets/photos/pexels-peaky-29459444.jpg";
+import projectsBg from "@/assets/photos/projects.jpg";
 
 import FeaturedProjectCard from "./FeaturedProjectCard";
 import ProjectCard from "./ProjectCard";

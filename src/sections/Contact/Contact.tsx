@@ -8,7 +8,7 @@ import Container from "@/components/ui/Container";
 import ContactCard from "./ContactCard";
 import { contactChannels } from "./contact.data";
 import DramaticTransition from "@/components/motion/DramaticTransition";
-import contactBg from "@/assets/photos/michael-stevanus-hartono-fyGFD3-gD5g-unsplash.jpg";
+import contactBg from "@/assets/photos/contact2.jpg";
 
 
 const contentVariants: Variants = {
