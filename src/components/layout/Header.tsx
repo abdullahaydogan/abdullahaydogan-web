@@ -185,14 +185,14 @@ function Header() {
               aria-label="Abdullah Aydoğan homepage"
               onClick={closeMenu}
               className={cn(
-                "group inline-flex items-center gap-3 rounded-xl",
+                "group inline-flex min-w-0 flex-1 items-center gap-2.5 rounded-xl sm:gap-3 lg:flex-none",
                 "focus-visible:outline-none focus-visible:ring-2",
                 "focus-visible:ring-brand-500/40",
               )}
             >
               <span
                 className={cn(
-                  "relative size-11 shrink-0 overflow-hidden rounded-full",
+                  "relative size-10 shrink-0 overflow-hidden rounded-full sm:size-11",
                   "border border-white/80 bg-surface",
                   "ring-1 ring-line/60",
                   "shadow-[0_10px_24px_-12px_rgba(15,23,42,0.45)]",
@@ -205,8 +205,6 @@ function Header() {
                 <img
                   src={profilePhoto}
                   alt="Abdullah Aydoğan"
-                  width={44}
-                  height={44}
                   loading="eager"
                   decoding="async"
                   draggable={false}
@@ -219,13 +217,24 @@ function Header() {
                 />
               </span>
 
-              <span className="hidden flex-col sm:flex">
-                <span className="text-sm font-semibold leading-tight tracking-[-0.02em] text-ink">
+              <span className="flex min-w-0 flex-col">
+                <span className="truncate text-[13px] font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-sm">
                   Abdullah Aydoğan
                 </span>
 
-                <span className="mt-0.5 text-[11px] font-medium leading-tight text-ink-muted">
-                  Full Stack Software Engineer
+                <span className="mt-0.5 flex items-center gap-1.5 text-[10px] font-medium leading-tight text-ink-muted sm:text-[11px]">
+                  <span
+                    aria-hidden="true"
+                    className="size-1.5 shrink-0 rounded-full bg-emerald-500"
+                  />
+
+                  <span className="sm:hidden">
+                    Software Engineer
+                  </span>
+
+                  <span className="hidden sm:inline">
+                    Full Stack Software Engineer
+                  </span>
                 </span>
               </span>
             </Link>
@@ -255,7 +264,7 @@ function Header() {
               aria-controls="mobile-navigation"
               onClick={toggleMenu}
               className={cn(
-                "relative inline-flex size-10 items-center justify-center",
+                "relative inline-flex size-10 shrink-0 items-center justify-center",
                 "rounded-xl border border-line/70 bg-surface/80",
                 "text-ink-soft shadow-sm transition-all duration-300",
                 "hover:border-line hover:bg-surface-soft hover:text-ink",
