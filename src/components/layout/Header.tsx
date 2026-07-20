@@ -9,7 +9,7 @@ import {
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 
-import profilePhoto from "@/assets/photos/photo1.jpeg";
+import profilePhoto from "@/assets/photos/photo1.jpg";
 import Container from "@/components/ui/Container";
 import { navigationItems } from "@/constants/navigation";
 import { cn } from "@/utils/cn";

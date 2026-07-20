@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-import photo from "@/assets/photos/photo1.jpeg";
+import photo from "@/assets/photos/photo1.jpg";
 
 function AboutPhoto() {
   return (
