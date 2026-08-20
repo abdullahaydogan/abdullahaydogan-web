@@ -10,7 +10,7 @@ export interface AboutStat {
 export const aboutStats: readonly AboutStat[] = [
   { id: "experience", value: "2+", label: "Years in production" },
   { id: "domains", value: "3", label: "Card domains" },
-  { id: "stack", value: "8+", label: "Core technologies" },
+  { id: "stack", value: "10+", label: "Core technologies" },
   { id: "degree", value: "2026", label: "Engineering graduate" },
 ] as const;
 
@@ -36,9 +36,9 @@ export const aboutMetrics: readonly AboutMetric[] = [
   },
   {
     id: "stack",
-    value: "8+",
-    label: "Core technologies",
-    description: "From GraphQL federation to event-driven messaging.",
+    value: "C# + Java",
+    label: "Backend ecosystems",
+    description: "Building backend systems across .NET and the Java / Spring ecosystem.",
   },
   {
     id: "degree",

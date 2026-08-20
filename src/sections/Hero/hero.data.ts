@@ -1,9 +1,11 @@
 export const heroTechnologies = [
   ".NET",
-  "React",
+  "Java",
+  "Spring Boot",
   "GraphQL",
   "RabbitMQ",
   "PostgreSQL",
+  "React",
   "TypeScript",
 ] as const;
 

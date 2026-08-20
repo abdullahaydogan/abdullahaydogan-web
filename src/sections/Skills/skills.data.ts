@@ -31,13 +31,48 @@ export const skills: readonly SkillItem[] = [
     highlights: [
       "Clean Architecture",
       "CQRS",
-      "MediatR",
-      "SOLID & DDD principles",
+      "SOLID principles",
+      "DDD principles",
     ],
     evidence:
-      "Applied across credit, debit, prepaid and customer-focused services.",
+      "Applied across production-grade backend services and distributed application domains.",
     accent: "#2563EB",
     glow: "rgba(37, 99, 235, 0.14)",
+  },
+  {
+    id: "java-spring",
+    title: "Java & Spring ecosystem",
+    description:
+      "Building backend applications with Java and the Spring ecosystem while applying object-oriented design and modern backend development practices.",
+    icon: Braces,
+    highlights: [
+      "Java",
+      "Spring Boot",
+      "Spring Web",
+      "Spring Data JPA",
+    ],
+    evidence:
+      "Developing Java-based backend applications with a focus on REST APIs, persistence and maintainable application architecture.",
+    accent: "#EA580C",
+    glow: "rgba(234, 88, 12, 0.13)",
+  },
+  {
+    id: "dotnet-ecosystem",
+    title: ".NET ecosystem",
+    description:
+      "Building production-grade backend services with C# and the .NET ecosystem, focusing on maintainability, scalability and clean software architecture.",
+    icon: Braces,
+    highlights: [
+      "C#",
+      ".NET",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "MediatR",
+    ],
+    evidence:
+      "Used professionally across microservice-based FinTech applications and multiple card issuance domains.",
+    accent: "#512BD4",
+    glow: "rgba(81, 43, 212, 0.13)",
   },
   {
     id: "distributed-systems",

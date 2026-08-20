@@ -83,6 +83,17 @@ function About() {
                 root-cause analysis of distributed-systems issues in
                 production.
               </motion.p>
+              <motion.p
+                variants={itemVariants}
+                className="mt-5 text-base leading-8 text-ink-soft"
+              >
+                Alongside my professional .NET experience, I also work with
+                Java and the Spring ecosystem, focusing on Spring Boot,
+                object-oriented programming, REST API development and
+                backend application architecture. My goal is to apply the
+                same clean architecture and software engineering principles
+                across both .NET and Java-based backend systems.
+              </motion.p>
             </motion.div>
 
             <div className="space-y-3.5">

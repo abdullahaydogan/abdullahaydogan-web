@@ -55,15 +55,30 @@ export const projects: readonly Project[] = [
       href: "https://yenicagkurs-v2.vercel.app/",
     },
   },
-  {
-    id: "google-dsc",
-    title: "Sustainable Development Application",
-    category: "Google Developer Student Clubs · Team project",
-    description:
-      "Worked within an Agile team to design and deliver an application addressing a UN Sustainable Development Goal.",
-    highlights: [],
-    stack: ["Agile", "Team collaboration"],
-  },
+{
+  id: "welfare",
+  title: "Welfare",
+  category: "Google Solution Challenge · GDSC Team Project",
+
+  description:
+    "Founded and led the Web Development Team within Google Developer Student Clubs (GDSC) and contributed to Welfare, a team project developed for Google's Solution Challenge. Worked as the sole Backend Developer, designing and implementing the application's backend using Java and Spring Boot.",
+
+  highlights: [
+    "Founded and led the GDSC Web Development Team",
+    "Sole Backend Developer responsible for backend development",
+    "Developed for Google's Solution Challenge",
+    "Designed and implemented RESTful backend services with Java and Spring Boot",
+  ],
+
+  stack: [
+    "Java",
+    "Spring Boot",
+    "Spring Web",
+    "REST API",
+    "Git",
+    "Agile",
+  ],
+},
   {
     id: "multi-vendor-ecommerce",
     title: "Multi-Vendor E-Commerce Platform",

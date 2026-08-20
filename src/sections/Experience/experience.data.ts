@@ -175,9 +175,13 @@ export const experience: ExperienceEntry = {
   ],
 
   stack: [
+    "Java",
+    "C#",
+    "Spring",
+    "Spring Boot",
     ".NET",
     "ASP.NET Core",
-    "C#",
+
     "Entity Framework Core",
     "Clean Architecture",
     "CQRS",
