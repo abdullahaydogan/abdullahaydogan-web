@@ -38,8 +38,7 @@ function HeroContent() {
         className="flex flex-wrap items-center gap-3 font-mono text-xs text-ink-muted"
       >
         <span className="text-brand-500">{"//"}</span>
-        <span>full stack developer</span>
-
+<span>backend-focused software engineer</span>
         <span className="mx-1 hidden h-3 w-px bg-line sm:block" />
 
         <span className="inline-flex items-center gap-1.5">
@@ -51,23 +50,25 @@ function HeroContent() {
         </span>
       </motion.div>
 
-      <motion.h1
-        variants={itemVariants}
-        className="mt-7 text-4xl leading-[1.08] font-semibold tracking-[-0.03em] text-ink sm:text-5xl lg:text-[3.4rem]"
-      >
-        I build the infrastructure{" "}
-        <span className="text-brand-600">reliable web applications</span> run on.
-      </motion.h1>
+<motion.h1
+  variants={itemVariants}
+  className="mt-7 text-4xl leading-[1.08] font-semibold tracking-[-0.03em] text-ink sm:text-5xl lg:text-[3.4rem]"
+>
+  I build reliable{" "}
+  <span className="text-brand-600">backend systems</span> for modern web
+  applications.
+</motion.h1>
 
-      <motion.p
-        variants={itemVariants}
-        className="mt-6 max-w-lg text-base leading-8 text-ink-soft sm:text-lg"
-      >
-        Full stack developer with two years of experience building
-        microservice-based platforms — working across backend
-        services, GraphQL APIs, and the React interfaces that bring
-        them together.
-      </motion.p>
+<motion.p
+  variants={itemVariants}
+  className="mt-6 max-w-lg text-base leading-8 text-ink-soft sm:text-lg"
+>
+  Backend-focused Full Stack Software Engineer with two years of professional
+  experience building scalable, microservice-based applications with C#/.NET and Java.
+  Specialized in ASP.NET Core, Spring Boot, clean architecture, APIs,
+  event-driven systems, and distributed architectures — with React and TypeScript
+  for end-to-end development.
+</motion.p>
 
       <motion.div variants={itemVariants} className="mt-9">
         <HeroButtons />
